@@ -1,0 +1,9 @@
+services:
+  task-tracker-api:
+    build: .
+    container_name: task-tracker-api
+    ports:
+      - "8080:8080"
+    environment:
+      TASK_DEFAULT_PRIORITY: MEDIUM
+      PAGINATION_DEFAULT_PAGE_SIZE: "10"
