@@ -24,7 +24,7 @@ A RESTful Spring Boot API for managing projects, users, and tasks.
 ### Option 1: Maven
 
 ```bash
-git clone https://github.com/<your-username>/task-tracker-api.git
+git clone https://github.com/tiwarisumit272181/task-tracker-api.git
 cd task-tracker-api
 mvn spring-boot:run
 ```
