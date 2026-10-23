@@ -605,7 +605,7 @@ components:
           type: string
           format: date
           nullable: true
-          example: '2026-12-31'
+          example: '2026-10-23'
 
     TaskResponse:
       type: object
